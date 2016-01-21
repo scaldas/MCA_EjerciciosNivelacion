@@ -1,6 +1,6 @@
 all: plot.png 
 
-plot.png:	Punto3.py data.txt 
+plot.png: Punto3.py data.txt 
 	python Punto3.py
 
 data.txt: Punto2.x
